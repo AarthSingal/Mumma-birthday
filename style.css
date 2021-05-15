@@ -56,7 +56,7 @@ header h1{
     transform:translate(-50%,-50%);
     background-image: url("./5.png");
     background-size: 100%,100%;
-    animation:slider 140s infinite linear;
+    animation:slider 180s infinite linear;
 }
             #usp {
                 margin-top: 500px;
@@ -136,21 +136,23 @@ footer:after{
             
             /* Animation */
             @keyframes slider {
-                0% { background-image: url('./5.png'); }
-                7% { background-image: url('./6.png'); }
-                14% { background-image: url('./7.png'); }
-                21% { background-image: url('./8.png'); }
-                28% { background-image: url('./9.png'); }
-                35% { background-image: url('./10.png'); }
-                42% { background-image: url('./11.png'); }
-                49% { background-image: url('./12.png'); }
-                56% { background-image: url('./13.png'); }
-                63% { background-image: url('./14.png'); }
-                70% { background-image: url('./15.png'); }
-                77% { background-image: url('./16.png'); }
-                84% { background-image: url('./17.png'); }
-                91% { background-image: url('./18.png'); }
-                100% { background-image: url('./5.png'); }
+                0% { background-image: url('./19.png'); }
+                6.25% { background-image: url('./5.png'); }
+                12.5% { background-image: url('./6.png'); }
+                18.75% { background-image: url('./7.png'); }
+                25% { background-image: url('./8.png'); }
+                31.25% { background-image: url('./9.png'); }
+                37.5% { background-image: url('./10.png'); }
+                43.75% { background-image: url('./11.png'); }
+                50% { background-image: url('./12.png'); }
+                56.25% { background-image: url('./13.png'); }
+                62.5% { background-image: url('./14.png'); }
+                68.75% { background-image: url('./15.png'); }
+                75% { background-image: url('./16.png'); }
+                81.25% { background-image: url('./17.png'); }
+                87.5% { background-image: url('./18.png'); }
+                93.75% { background-image: url('./20.png'); }
+                100% { background-image: url('./19.png'); }
             }
 .greet{
     background-color: #48C9B0;
